@@ -8,6 +8,9 @@ import { Component, OnInit } from '@angular/core';
 export class ViewAllTrainComponent implements OnInit {
 
   constructor() { }
+  readValue=()=>{
+    this.name="raju"
+  }
 name="Ansen"
   ngOnInit(): void {
   }
